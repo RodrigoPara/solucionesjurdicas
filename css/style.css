@@ -264,7 +264,6 @@ li a{
         grid-column: 3/4;
     }
 
-
     .banner1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -283,13 +282,15 @@ li a{
 
 /* MQ SERVICES PAGE*/
 
-.banner1-servicios{        
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(3, 1fr);   
+.banner1-servicios{             
     background-repeat: repeat;     
+    display: flex;  
+    flex-wrap: wrap;
+    background-image: none;
+    background-color: #f3bda1;
 }
 
+/*
 .banner1-servicios .services-area-laboral{
     grid-column: 1;      
 }
@@ -320,7 +321,7 @@ li a{
 
 .banner1-servicios .services-area-constituciones h1{
     font-size: 50px;
-}
+}*/
 
 }
 
