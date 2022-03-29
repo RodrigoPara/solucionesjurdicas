@@ -135,7 +135,7 @@ li a{
 /* CONTACTO*/
 
 .contact-form{
-    width: 500px;
+    width: 370px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -159,10 +159,7 @@ li a{
     width: 103%;
     color: #fff;
     border: 0px;
-    font-size: 20px;
-    /*border-radius: 4px;
-    border: 1px solid #f3bda1; */
-    
+    font-size: 20px;   
 }
 
 /* FOOTER */
@@ -268,7 +265,7 @@ li a{
     }
 
 
-    .main{
+    .banner1{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1,1fr);
