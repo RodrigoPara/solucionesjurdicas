@@ -268,7 +268,7 @@ li a{
     .banner1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
         background-size: cover;
     }
 
@@ -286,47 +286,36 @@ li a{
 .banner1-servicios{        
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(3, 1fr);      
+    grid-template-rows: repeat(3, 1fr);   
+    background-repeat: repeat;     
 }
 
 .banner1-servicios .services-area-laboral{
-    grid-column: 1;
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px;
+    grid-column: 1;      
 }
 
 .banner1-servicios .services-area-familia{
     grid-column: 1;
-    grid-row: 2;
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px;
+    grid-row: 2;       
 }
 
 .banner1-servicios .services-area-daños{
     grid-column: 1; 
-    grid-row: 3;
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px;   
+    grid-row: 3;          
 }
 
 .banner1-servicios .services-area-previsional{
     grid-column: 1;
-    grid-row: 4;
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px;
+    grid-row: 4;        
 }
 .banner1-servicios .services-area-contratos{
     grid-column: 1; 
-    grid-row: 5;  
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px; 
+    grid-row: 5;          
 }
 
 .banner1-servicios .services-area-constituciones{
     grid-column: 1;
-    grid-row: 6;
-    background: rgba(243, 189, 161, 0.3);
-    padding: 10px;
+    grid-row: 6;        
 }
 
 .banner1-servicios .services-area-constituciones h1{
