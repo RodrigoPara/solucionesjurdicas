@@ -131,6 +131,38 @@ li a{
     font-size: 2em;
 }
 
+/* BLOG */
+
+.blog{
+    display: flex;
+    margin-top: 30px;
+}
+
+.blog-uno, .blog-dos, .blog-tres{    
+    margin: 10px;  
+    padding: 20px;  
+    /*background-color:#f3bda1;  
+    box-shadow: 2px 2px 2px;*/  
+    box-shadow: 0 0 11px 0 rgba(243, 189, 161, 0.3);   
+    
+}
+
+.blog, .blog-uno, .blog-dos, .blog-tres, h3{
+    font-weight: lighter;
+    font-size: 30px;  
+    margin-bottom: 10px;
+}
+
+.blog, .blog-uno, .blog-dos, .blog-tres, p{
+    font-weight: lighter;
+    font-size: 15px;  
+    margin-bottom: 10px;
+}
+
+.blog a{    
+    text-decoration: none;
+    color: #02475e;
+}
    
 /* CONTACTO*/
 
@@ -278,6 +310,11 @@ li a{
     .services-area{
         grid-column: 3;
         grid-row: auto;
+    }
+
+    .blog{
+        flex-wrap: wrap;
+        margin-top: 30px;
     }
 
 /* MQ SERVICES PAGE*/
