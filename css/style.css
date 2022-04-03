@@ -313,7 +313,7 @@ li a{
 
 /* PAGE NOVEDADES */
 
-.blog-uno{
+.blog-uno-nov{
     grid-column: 2/8;
     margin-top: 30px;
     color: #fff;
@@ -322,12 +322,12 @@ li a{
     padding: 10px;    
 }
 
-.blog-uno h1{
+.blog-uno-nov h1{
     font-weight: lighter;
     font-size: 60px;    
 }
 
-.blog-uno p{
+.blog-uno-nov p{
     font-weight: 510;
     font-size: 20px;
 }
