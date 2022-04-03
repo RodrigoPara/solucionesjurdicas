@@ -311,6 +311,27 @@ li a{
     padding: 10px;
 }
 
+/* PAGE NOVEDADES */
+
+.blog-uno{
+    grid-column: 2/8;
+    margin-top: 30px;
+    color: #fff;
+    /*border: solid;*/
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;    
+}
+
+.blog-uno h1{
+    font-weight: lighter;
+    font-size: 60px;    
+}
+
+.blog-uno p{
+    font-weight: 510;
+    font-size: 20px;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 768px) {
