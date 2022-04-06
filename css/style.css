@@ -8,59 +8,34 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
-.nav-bar{
-    background-color: #02475e;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    align-items: center;
+/* HEADER -> Contiene Boostrap*/
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.logo{
-    margin-left: 30px;
+.container-fluid{
+    background-color: #02475e;       
 }
 
-.nav-bar .menu{
-    grid-column: 4  / 7;
-    display: flex;    
-}
-
-li{
-    list-style: none;
-    margin: 35px;
-}
-
-li a{
-    text-decoration: none;
-    color:#e8e8e8;    
-    transition: 0.3s;
-}
-
-.nav-bar a:hover{    
-    color: white;
-    font-size: 1.1em;        
-}
-
-.contact{    
-    grid-column: 8;
-    padding: 12px 25px;
-    background-color: #3d3d3d;    
-    border-radius: 20px;
-    width: 120px;    
-    margin-right: 30px;
+.navbar .container-fluid a{
+    color: #fff;
 }
 
 .contact .button-contact{
     text-decoration: none;
-    color:#e8e8e8;
-    transition: 0.3s;
+    font-size: 1.3rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: lighter;
 }
 
-.nav-bar .contact:hover{    
-    color: white;
-    font-size: large;
-        
-}
+nav .navbar-nav li a{
+    color: white !important;
+    align-items: center;
+    }
 
 /* MAIN */
 
@@ -331,6 +306,7 @@ li a{
     font-weight: 510;
     font-size: 20px;
 }
+
 
 /* MEDIA QUERY */
 
