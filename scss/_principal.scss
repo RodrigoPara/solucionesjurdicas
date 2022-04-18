@@ -1,0 +1,96 @@
+/* MAIN */
+
+.banner1{        
+    border-top: 5px solid $color-pink;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 0.5fr);
+    Background-image: url(/img/books.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.nosotros{
+    grid-column: 2/4;
+    margin-top: 30px;
+    color: #fff;
+    /*border: solid;*/
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;    
+    animation-duration: 1s;
+    animation-name: desliza;
+}
+
+.nosotros h1{
+    font-weight: lighter;
+    font-size: 60px;    
+}
+
+.nosotros p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.services-area{
+    grid-column: 6/8;
+    grid-row: 2;
+    color: #fff;   
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;  
+    animation-duration: 1s;
+    animation-name: deslizados;    
+}
+
+.services-area h1{
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.services-area ul li{    
+    margin: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.services-area ul li a{
+    position: absolute;
+}
+
+.button-mas{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;       
+}
+
+.button-mas:hover{
+    text-decoration: underline;
+}
+
+.main h1{
+    font-size: 2em;
+}
+
+@keyframes desliza{ 
+    from{
+        margin-left: -60%;
+        width: 100%;
+    }
+
+    to{
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes deslizados{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}

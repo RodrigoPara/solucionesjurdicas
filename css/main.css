@@ -1,12 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
-/*NORMALIZADO*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
-
 /* HEADER -> Contiene Boostrap*/
 .navbar {
   padding-top: 0px;
@@ -220,7 +213,7 @@ nav .navbar-nav li a:hover {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  Background-image: url(/img/books.jpg);
+  background-image: url(/img/books.jpg);
   background-repeat: no-repeat;
   background-size: 100%; }
 
@@ -320,34 +313,11 @@ nav .navbar-nav li a:hover {
   .banner1-servicios h1 {
     color: #02475e; }
   .banner1-servicios .services-area-constituciones h1 {
-    font-size: 50px; }
-  /*
-.banner1-servicios .services-area-laboral{
-    grid-column: 1;      
-}
+    font-size: 50px; } }
 
-.banner1-servicios .services-area-familia{
-    grid-column: 1;
-    grid-row: 2;       
-}
-
-.banner1-servicios .services-area-daños{
-    grid-column: 1; 
-    grid-row: 3;          
-}
-
-.banner1-servicios .services-area-previsional{
-    grid-column: 1;
-    grid-row: 4;        
-}
-.banner1-servicios .services-area-contratos{
-    grid-column: 1; 
-    grid-row: 5;          
-}
-
-.banner1-servicios .services-area-constituciones{
-    grid-column: 1;
-    grid-row: 6;        
-}
-
-*/ }
+/*NORMALIZADO*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }

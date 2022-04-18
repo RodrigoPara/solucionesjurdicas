@@ -1,0 +1,83 @@
+/* PAGE SERVICIOS */
+
+.banner1-servicios{        
+    border-top: 5px solid $color-pink;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(/img/books.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.main-servicios .banner1-servicios h1{
+    font-weight: lighter;
+    font-size: 60px;  
+    color: #fff;
+}
+
+.main-servicios .banner1-servicios ul li{    
+    margin: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner1-servicios .services-area-laboral{
+    grid-column: 2;
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;
+}
+
+.banner1-servicios .services-area-familia{
+    grid-column: 3;
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;
+}
+
+.banner1-servicios .services-area-daños{
+    grid-column: 4; 
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;   
+}
+
+.banner1-servicios .services-area-previsional{
+    grid-column: 2;
+    grid-row: 2;
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;
+}
+.banner1-servicios .services-area-contratos{
+    grid-column: 3; 
+    grid-row: 2;  
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px; 
+}
+
+.banner1-servicios .services-area-constituciones{
+    grid-column: 4;
+    grid-row: 2;
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;
+}
+
+/* PAGE NOVEDADES */
+
+.blog-uno-nov{
+    grid-column: 2/8;
+    margin-top: 30px;
+    color: #fff;
+    /*border: solid;*/
+    background: rgba(243, 189, 161, 0.3);
+    padding: 10px;    
+}
+
+.blog-uno-nov h1{
+    font-weight: lighter;
+    font-size: 60px;    
+}
+
+.blog-uno-nov p{
+    font-weight: 510;
+    font-size: 20px;
+}

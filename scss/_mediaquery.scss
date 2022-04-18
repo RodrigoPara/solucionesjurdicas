@@ -1,0 +1,61 @@
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+    .nav-bar {       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .nav-bar .menu{
+        grid-column: 1/3;
+        display: inline-block;    
+    }
+
+    .contact{
+        grid-column: 3/4;
+    }
+
+    .banner1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1,1fr);
+        background-size: cover;
+    }
+
+    .nosotros{
+        grid-column: 2;          
+    }
+
+    .services-area{
+        grid-column: 3;
+        grid-row: auto;
+    }
+
+    .blog{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+/* MQ SERVICES PAGE*/
+
+.banner1-servicios{             
+    background-repeat: repeat;     
+    display: flex;  
+    flex-wrap: wrap;
+    background-image: none;
+    background-color: $color-pink;
+}
+
+.banner1-servicios h1{
+    color:#02475e;
+}
+
+.banner1-servicios .services-area-constituciones h1{
+    font-size: 50px;
+}
+}
