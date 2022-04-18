@@ -1,15 +1,18 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
-/* HEADER -> Contiene Boostrap*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px; }
-
-.container-fluid {
-  background-color: #02475e; }
-
-.navbar .container-fluid a {
-  color: #fff; }
+  .navbar .container-fluid {
+    background-color: #02475e; }
+    .navbar .container-fluid a {
+      color: #fff; }
 
 .contact .button-contact {
   text-decoration: none;
@@ -33,7 +36,6 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
   font-size: large; }
 
-/* MAIN */
 .banner1 {
   border-top: 5px solid #f3bda1;
   display: grid;
@@ -47,7 +49,6 @@ nav .navbar-nav li a:hover {
   grid-column: 2/4;
   margin-top: 30px;
   color: #fff;
-  /*border: solid;*/
   background: rgba(243, 189, 161, 0.3);
   padding: 10px;
   animation-duration: 1s;
@@ -110,17 +111,15 @@ nav .navbar-nav li a:hover {
     margin-left: 0%;
     width: 100%; } }
 
-/* BLOG */
 .banner2 {
   border-top: 5px solid #f3bda1; }
-
-.banner2 h1 {
-  margin-top: 30px;
-  margin-left: 30px;
-  font-weight: lighter;
-  font-size: 60px;
-  border-bottom: 4px solid #02475e;
-  max-width: 60px; }
+  .banner2 h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 60px;
+    border-bottom: 4px solid #02475e;
+    max-width: 60px; }
 
 .blog {
   display: flex;
@@ -129,8 +128,6 @@ nav .navbar-nav li a:hover {
 .blog-uno, .blog-dos, .blog-tres {
   margin: 10px;
   padding: 20px;
-  /*background-color:#f3bda1;  
-    box-shadow: 2px 2px 2px;*/
   box-shadow: 0 0 11px 0 rgba(243, 189, 161, 0.5); }
 
 .blog, .blog-uno, .blog-dos, .blog-tres, h3 {
@@ -152,7 +149,6 @@ nav .navbar-nav li a:hover {
 .blog a:hover {
   font-weight: bold; }
 
-/* CONTACTO*/
 .contacto {
   border-top: 5px solid #f3bda1;
   margin-top: 40px;
@@ -194,7 +190,6 @@ nav .navbar-nav li a:hover {
   border: 0px;
   font-size: 20px; }
 
-/* FOOTER */
 .footer {
   margin: auto;
   background-color: #02475e;
@@ -203,11 +198,9 @@ nav .navbar-nav li a:hover {
   display: flex;
   justify-content: center;
   padding: 10px; }
+  .footer h1 {
+    font-weight: lighter; }
 
-.footer h1 {
-  font-weight: lighter; }
-
-/* PAGE SERVICIOS */
 .banner1-servicios {
   border-top: 5px solid #f3bda1;
   display: grid;
@@ -261,12 +254,10 @@ nav .navbar-nav li a:hover {
   background: rgba(243, 189, 161, 0.3);
   padding: 10px; }
 
-/* PAGE NOVEDADES */
 .blog-uno-nov {
   grid-column: 2/8;
   margin-top: 30px;
   color: #fff;
-  /*border: solid;*/
   background: rgba(243, 189, 161, 0.3);
   padding: 10px; }
 
@@ -278,7 +269,6 @@ nav .navbar-nav li a:hover {
   font-weight: 510;
   font-size: 20px; }
 
-/* MEDIA QUERY */
 @media screen and (max-width: 768px) {
   .nav-bar {
     display: grid;
@@ -303,7 +293,6 @@ nav .navbar-nav li a:hover {
   .blog {
     flex-wrap: wrap;
     margin-top: 30px; }
-  /* MQ SERVICES PAGE*/
   .banner1-servicios {
     background-repeat: repeat;
     display: flex;
@@ -314,10 +303,3 @@ nav .navbar-nav li a:hover {
     color: #02475e; }
   .banner1-servicios .services-area-constituciones h1 {
     font-size: 50px; } }
-
-/*NORMALIZADO*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }

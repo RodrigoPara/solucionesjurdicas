@@ -1,16 +1,13 @@
-/* BLOG */
-
 .banner2{
     border-top: 5px solid $color-pink;   
-}
-
-.banner2 h1{
-    margin-top: 30px;
-    margin-left: 30px;
-    font-weight: lighter;
-    font-size: 60px;
-    border-bottom: 4px solid #02475e;
-    max-width: 60px;
+    h1{
+        margin-top: 30px;
+        margin-left: 30px;
+        font-weight: lighter;
+        font-size: 60px;
+        border-bottom: 4px solid #02475e;
+        max-width: 60px;
+    }
 }
 
 .blog{
@@ -20,9 +17,7 @@
 
 .blog-uno, .blog-dos, .blog-tres{    
     margin: 10px;  
-    padding: 20px;  
-    /*background-color:#f3bda1;  
-    box-shadow: 2px 2px 2px;*/  
+    padding: 20px;    
     box-shadow: 0 0 11px 0 rgba(243, 189, 161, 0.5);   
 }
 

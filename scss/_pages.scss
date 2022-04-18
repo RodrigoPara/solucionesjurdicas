@@ -1,5 +1,3 @@
-/* PAGE SERVICIOS */
-
 .banner1-servicios{        
     border-top: 5px solid $color-pink;
     display: grid;
@@ -61,13 +59,10 @@
     padding: 10px;
 }
 
-/* PAGE NOVEDADES */
-
 .blog-uno-nov{
     grid-column: 2/8;
     margin-top: 30px;
     color: #fff;
-    /*border: solid;*/
     background: rgba(243, 189, 161, 0.3);
     padding: 10px;    
 }
