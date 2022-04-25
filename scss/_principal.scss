@@ -16,16 +16,14 @@
     padding: 10px;    
     animation-duration: 1s;
     animation-name: desliza;
-}
-
-.nosotros h1{
-    font-weight: lighter;
-    font-size: 60px;    
-}
-
-.nosotros p{
-    font-weight: 500;
-    font-size: 20px;
+    h2{
+        font-weight: lighter;
+        font-size: 60px;  
+    }
+    p{
+        font-weight: 500;
+        font-size: 20px;
+    }
 }
 
 .services-area{
@@ -35,22 +33,21 @@
     background: rgba(243, 189, 161, 0.4);
     padding: 10px;  
     animation-duration: 1s;
-    animation-name: deslizados;    
-}
-
-.services-area h1{
-    font-weight: lighter;
-    font-size: 60px;
-}
-
-.services-area ul li{    
-    margin: 10px;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-.services-area ul li a{
-    position: absolute;
+    animation-name: deslizados;  
+    h2{
+        font-weight: lighter;
+        font-size: 60px; 
+    }  
+    ul{
+        li{
+            margin: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            a{
+                position: absolute;
+            }
+        }
+    }
 }
 
 .button-mas{
@@ -64,7 +61,7 @@
     text-decoration: underline;
 }
 
-.main h1{
+.main h2{
     font-size: 2em;
 }
 

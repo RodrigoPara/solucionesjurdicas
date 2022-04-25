@@ -53,14 +53,12 @@ nav .navbar-nav li a:hover {
   padding: 10px;
   animation-duration: 1s;
   animation-name: desliza; }
-
-.nosotros h1 {
-  font-weight: lighter;
-  font-size: 60px; }
-
-.nosotros p {
-  font-weight: 500;
-  font-size: 20px; }
+  .nosotros h2 {
+    font-weight: lighter;
+    font-size: 60px; }
+  .nosotros p {
+    font-weight: 500;
+    font-size: 20px; }
 
 .services-area {
   grid-column: 6/8;
@@ -70,18 +68,15 @@ nav .navbar-nav li a:hover {
   padding: 10px;
   animation-duration: 1s;
   animation-name: deslizados; }
-
-.services-area h1 {
-  font-weight: lighter;
-  font-size: 60px; }
-
-.services-area ul li {
-  margin: 10px;
-  font-weight: 500;
-  font-size: 20px; }
-
-.services-area ul li a {
-  position: absolute; }
+  .services-area h2 {
+    font-weight: lighter;
+    font-size: 60px; }
+  .services-area ul li {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 20px; }
+    .services-area ul li a {
+      position: absolute; }
 
 .button-mas {
   text-decoration: none;
@@ -92,7 +87,7 @@ nav .navbar-nav li a:hover {
 .button-mas:hover {
   text-decoration: underline; }
 
-.main h1 {
+.main h2 {
   font-size: 2em; }
 
 @keyframes desliza {
@@ -155,7 +150,7 @@ nav .navbar-nav li a:hover {
   background-image: url(/img/books2.jpg);
   background-repeat: no-repeat;
   background-size: 100%; }
-  .contacto h1 {
+  .contacto h2 {
     margin-top: 30px;
     margin-left: 30px;
     font-weight: lighter;
