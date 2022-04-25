@@ -5,7 +5,7 @@
         margin-left: 30px;
         font-weight: lighter;
         font-size: 60px;
-        border-bottom: 4px solid #02475e;
+        border-bottom: 4px solid $color-darkblue;
         max-width: 60px;
     }
 }
@@ -35,7 +35,7 @@
 
 .blog a{    
     text-decoration: none;
-    color: #02475e;
+    color: $color-darkblue;
     font-weight:bolder;
     transition: 0.1s;
 }

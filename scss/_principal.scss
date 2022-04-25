@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 0.5fr);
-    Background-image: url(/img/books.jpg);
+    background-image: url(/img/books.jpg);
     background-repeat: no-repeat;
     background-size: 100%;    
 }
@@ -11,8 +11,8 @@
 .nosotros{
     grid-column: 2/4;
     margin-top: 30px;
-    color: #fff;
-    background: rgba(243, 189, 161, 0.3);
+    color: $color-white;
+    background: rgba(243, 189, 161, 0.4);
     padding: 10px;    
     animation-duration: 1s;
     animation-name: desliza;
@@ -31,8 +31,8 @@
 .services-area{
     grid-column: 6/8;
     grid-row: 2;
-    color: #fff;   
-    background: rgba(243, 189, 161, 0.3);
+    color: $color-white;   
+    background: rgba(243, 189, 161, 0.4);
     padding: 10px;  
     animation-duration: 1s;
     animation-name: deslizados;    
@@ -56,7 +56,7 @@
 .button-mas{
     text-decoration: none;
     font-size: 15px;
-    color: white;
+    color: $color-white;
     margin-left: 10px;       
 }
 

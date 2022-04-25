@@ -9,9 +9,9 @@
     margin-left: 30px;
     font-weight: lighter;
     font-size: 60px;
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid $color-white;
     max-width: 60px;
-    color: #fff;
+    color: $color-white;
     }
 }
 
@@ -20,13 +20,13 @@
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #02475e;
+    background-color: $color-darkblue;
     padding: 30px;
     border-radius: 20px; 
     .form-btn{
         background-color: $color-pink;  
     width: 103%;
-    color: #fff;
+    color: $color-white;
     border: 0px;
     font-size: 20px;  
     }
@@ -34,8 +34,8 @@
 
 .contact-input{  
     width: 100%;
-    background-color: #02475e;    
-    color: #fff;
+    background-color: $color-darkblue;    
+    color: $color-white;
     border-radius: 4px; 
     padding: 10px;
     margin: 5px;
